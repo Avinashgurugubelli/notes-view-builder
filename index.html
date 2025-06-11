@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grokking the coding interview</title>
+    <!-- Latest compiled and minified CSS -->
+    <link href="./styles/external/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/index.css">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="./scripts/external/jquery-3.6.0.min.js"></script>
+    <script src="./scripts/external/bootstrap.bundle.min.js"></script>
+    <script src="./data/data.js"></script>
+    <script src="./scripts/index.js" defer></script>
+
+</head>
+
+<body>
+<div id="spinner" style="display:none; position:absolute; left:50%; top:50%; transform:translate(-50%,-50%); z-index:1000;">
+  <div class="loader"></div>
+</div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-4 border-end  border-2">
+                <div class="row">
+                    <div class="col">
+                        <h3>A Practical Guide to Kubernetes - Learn Interactively</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div id="course-content" style="height: 100vh; overflow:auto">
+                            <ul id="myUL"></ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-8">
+                <div class="row">
+                    <div class="col">
+                        <div style="word-wrap: break-word;">
+                            <h5>
+                                <span style="font-weight: bolder; margin-right: 1.5rem;">Topic: </span>
+                                <span id="topic-title">
+                                    1. Introduction/1 Who should take this course.html
+                                </span>
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <iframe src="src/1.Introduction/3_A_Short_History_of_Deployment_Processes.mhtml" id="content-displayer"
+                            style="height:85vh;width:100%;border:none;overflow: hidden; margin-top: 2rem;"
+                            title="Product line summary"></iframe>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
