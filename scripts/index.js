@@ -4,7 +4,7 @@ var collator = new Intl.Collator(undefined, { numeric: true, sensitivity: 'base'
 const config = {
     // if the input data is not sorted then sort while rendering set value to true.
     isSortNeeded: false,
-    supportedExtensions: ['html', 'htm', 'md', 'mhtml'],
+    supportedExtensions: ['html', 'htm', 'md', 'mhtml', 'txt', 'pdf', 'docx', 'xlsx', 'pptx', 'csv', 'json', 'js', 'css', 'xml'],
     extensionsToOpenInNewTab: ['mhtml']
 };
 
