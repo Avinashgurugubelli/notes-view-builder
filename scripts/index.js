@@ -22,6 +22,7 @@ function createLi(text, isDir, path) {
     if (isDir) {
         span.setAttribute("class", "caret");
         span.appendChild(document.createTextNode(`${text}`));
+        li.setAttribute('title', text);
         li.appendChild(span);
     }
     else {
@@ -30,6 +31,7 @@ function createLi(text, isDir, path) {
         if (extn && config.supportedExtensions.includes(extn)) {
             span.appendChild(document.createTextNode(`${text}`));
             path !== undefined && li.setAttribute("data-file-path", path);
+            li.setAttribute('title', text);
             li.setAttribute('class', 'topic-li')
             li.appendChild(span);
         }
